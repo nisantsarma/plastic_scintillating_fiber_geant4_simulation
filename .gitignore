@@ -1,0 +1,10 @@
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+sim
+*.o
+*.so
+*.a
+*.log
