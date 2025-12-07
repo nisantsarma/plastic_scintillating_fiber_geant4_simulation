@@ -63,10 +63,10 @@ The simulation uses a range cuts of:
 
 # 3. Input Gamma Energies
 
- -The simulation runs for the following monoenergetic gamma rays (in keV): 20, 30, 40, 50, 60, 80, 100, 150, 200, 300, 400, 500, 
- 600, 700, 800, 900, 1000, 1200, 1400, 1600, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+ - The simulation runs for the following monoenergetic gamma rays (in keV): 20, 30, 40, 50, 60, 80, 100, 150, 200, 300, 400, 500, 
+   600, 700, 800, 900, 1000, 1200, 1400, 1600, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
 
- -For each energy index 'i', the simulation produces a outputi.root stored in 'results' folder
+ - For each energy index 'i', the simulation produces a outputi.root stored in 'results' folder
 
  ---
 
