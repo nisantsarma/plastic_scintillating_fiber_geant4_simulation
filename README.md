@@ -71,23 +71,22 @@ The simulation uses a range cuts of:
  ---
 
 # 4. ROOT macro
- -The ROOT macro efficiency_analysis.C present in the macros/ folder computes the Absorption efficiency (T_a), Optical Transmission efficiency (T_cT_t),
-  Detection efficiency (DE), Photon yeild vs deposited energy. This macro also generates all the required outpul plots which are present in 'output plots' folder
-
- -T_a = <E_dep> / Energy of incident gamma
- -T_cT_t = <no. of eascaped optical photons> / <E_dep>
- -DE = <no. of eascaped photons> x 2.5 x 10^(-3) / energy of incident gamma  ( 2.5 eV is the energy of the generated optical photon)
+ - The ROOT macro efficiency_analysis.C present in the macros/ folder computes the Absorption efficiency (T_a), Optical Transmission efficiency (T_cT_t),
+   Detection efficiency (DE), Photon yeild vs deposited energy. This macro also generates all the required outpul plots which are present in 'output plots' folder
+ - T_a = <E_dep> / Energy of incident gamma
+ - T_cT_t = <no. of eascaped optical photons> / <E_dep>
+ - DE = <no. of eascaped photons> x 2.5 x 10^(-3) / energy of incident gamma  ( 2.5 eV is the energy of the generated optical photon)
  
 ---
 
 # How to run the simulation
- -First make a build directory
- -Inside build directory run the following commands 
-  ```bash
-     cmake ..
-     make -j4
-     ./sim run.mac
-  ``` 
- -All the output*.root files will be generated 
- -We have to run the root macro named "efficiency_analysis.C" which is present in the macros folder which will give all the required plots.
- ( it is important to run the macro inside build folder as all the root output files will be generated in build)
+ - First make a build directory
+ - Inside build directory run the following commands 
+   ```bash
+      cmake ..
+      make -j4
+      ./sim run.mac
+   ``` 
+ - All the output*.root files will be generated 
+ - We have to run the root macro named "efficiency_analysis.C" which is present in the macros folder which will give all the required plots.
+   ( it is important to run the macro inside build folder as all the root output files will be generated in build)
